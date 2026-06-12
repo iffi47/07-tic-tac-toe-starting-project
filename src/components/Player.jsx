@@ -9,7 +9,6 @@ export default function Player({name, symbol, isActive}) {
   const handleChange = (event) =>{
     setPlayerName(event.target.value)
   }
-  console.log(isActive)
   return(
     <>
     <li className={isActive ? 'active' : undefined}>
